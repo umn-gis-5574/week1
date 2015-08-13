@@ -6,5 +6,8 @@ GIS 5574 - Week 1
 3. Modify/add files and **commit** your changes.
 4. **Push** the changes up to GitHub.
 5. Create a **pull request** on the original repository to turn in the assignment.
+[Source](https://education.github.com/guide/forks)
 
-[1]: https://education.github.com/guide/forks
+
+
+#success!!!!
