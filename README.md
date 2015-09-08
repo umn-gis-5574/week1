@@ -1,4 +1,4 @@
-## Week 1: Introductions
+ ## Week 1: Introductions
 #### Or: Gitting to know you
 
 ### Introductions:
@@ -24,10 +24,23 @@ To hopefully make things easier for us, we'll be using virtual machines hosted b
   -  Commits
   -  Branches
   -  GitHub Pages
-  -  General Git workflow
+  -  General Git workflow[\*](1)
+    1. To start, **fork** the repository.
+    2. **Clone** the repository to your computer.
+    3. Modify/add files and **commit** your changes.
+    4. **Push** the changes up to GitHub.
+    5. Create a **pull request** on the original repository to turn in the assignment.
 4.  Quick introduction to Leaflet
 
 ### Your assignment
 There are going to be a lot of facets to this course, so starting with GitHub may seem a bit odd for a class ostensibly all about maps, but hopefully you all see some method to my madness. Here's what you need to do for this week.
 
-First, if you aren't familiar with JavaScript, HTML, CSS, and GitHub, take advantage of the bounty of online learning materials out there. See the syllabus for some 
+First, if you aren't familiar with JavaScript, HTML, CSS, and GitHub, take advantage of the bounty of online learning materials out there. See the [syllabus](https://github.com/umn-gis-5574/syllabus/blob/master/syllabus.md) for some pointers.
+
+Second, follow the General Git workflow above to clone the **week1** repository.
+
+Finally, update `index.html` to initialize the map centered on whatever you consider your home town. Change the text of the popup associated with the marker to a fun fact about you or your hometown. 
+
+
+
+[1]: https://education.github.com/guide/forks
