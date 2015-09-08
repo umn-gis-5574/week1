@@ -39,7 +39,9 @@ First, if you aren't familiar with JavaScript, HTML, CSS, and GitHub, take advan
 
 Second, follow the General Git workflow above to clone the **week1** repository.
 
-Finally, update `index.html` to initialize the map centered on whatever you consider your home town. Change the text of the popup associated with the marker to a fun fact about you or your hometown. 
+Finally, update `index.html` to initialize the map centered on whatever you consider your home town. Change the text of the popup associated with the marker to a fun fact about you or your hometown. To finish up, commit and push your changes to your forked repository. Then create a pull request to turn in the assignment. 
+
+Extra Credit: Add some other Leaflet stuff to your map. The tutorials are well written and the documentation is clear (leafletjs.com), so read through it and get crazy.
 
 
 
