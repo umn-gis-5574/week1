@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet-0.7.5/leaflet.css" />
   <style>
 
-		/*
-		Note this snippet of CSS is a way to make a full page map without
-		any white space around the edges.
-		*/
+	/*
+	Note this snippet of CSS is a way to make a full page map without
+	any white space around the edges.
+	*/
     body, html, #map-container {
-      height: 100%;
-      width: 100%;
-			margin: 0 auto;
+		height: 100%;
+		width: 100%;
+		margin: 0 auto;
     }
 
   </style>
@@ -49,7 +49,8 @@
 		// add a marker at Blegen Hall and attach a popup with some content to it
 		// that will open when the marker is clicked.
 		L.marker([44.971724, -93.243239]).addTo(map)
-			.bindPopup("<b>Hi there world!</b><br />I am a popup, just popping around Blegen Hall").openPopup();
+			.bindPopup("<b>Hi there world!</b><br />I am a popup, just popping around Blegen Hall")
+			.openPopup(); //openPopup means that the popup will be opened initially when the map loads.
 
 	</script>
 </body>
