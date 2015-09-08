@@ -1,4 +1,4 @@
- ## Week 1: Introductions
+## Week 1: Introductions
 #### Or: Gitting to know you
 
 ### Introductions:
