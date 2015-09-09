@@ -51,7 +51,12 @@
 		L.marker([50.450487, 30.516877]).addTo(map)
 			.bindPopup("<b>Greetings from Kiev!</b><br />This is where I was born!")
 			.openPopup(); //openPopup means that the popup will be opened initially when the map loads.
-
+		//add a circle that denotes my favorite part of the city
+		var circle = L.circle([50.440806, 30.549580], 500, {
+		color: 'green',
+		fillColor: '#f03',
+		fillOpacity: 0.5
+		}).addTo(map);
 	</script>
 </body>
 </html>
