@@ -35,7 +35,7 @@
 
 		// tell the map where it's center is [latitude, longitude] and what
 		// zoom level to start at (1 being waaaaay out, and 18 being basically street level)
-		map.setView([44.971724, -93.243239], 16);
+		map.setView([46.791850, -92.098899], 11);
 
 		// create our basemap layer and add it to the map
 		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
@@ -45,11 +45,21 @@
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
 			id: 'mapbox.streets'
 		}).addTo(map);
-
+		
+		var myIcon = L.icon({
+			iconSize: [38, 95]
+		});
+		
 		// add a marker at Blegen Hall and attach a popup with some content to it
 		// that will open when the marker is clicked.
-		L.marker([44.971724, -93.243239]).addTo(map)
-			.bindPopup("<b>Hi there world!</b><br />I am a popup, just popping around Blegen Hall")
+		L.marker([46.743704, -92.236566]).addTo(map)
+			.bindPopup("<b>Proctor High School</b><br />This is my high school.")
+		L.marker([47.021409, -92.211085]).addTo(map)
+			.bindPopup("<b>Cabin</b><br />This is my Cabin on Island lake.")
+		L.marker([46.956993, -92.458983]).addTo(map)
+			.bindPopup("<b>House</b><br />This is my House.")
+		L.marker([46.791850, -92.098899]).addTo(map)
+			.bindPopup("<b>Welcome to Duluth!</b><br />Duluth Minnesota is a beautiful port city on the Western shore of Lake Superior.")
 			.openPopup(); //openPopup means that the popup will be opened initially when the map loads.
 
 	</script>
