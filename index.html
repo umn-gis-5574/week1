@@ -43,13 +43,13 @@
 			attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
 				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
 				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
-			id: 'mapbox.streets'
+			id: 'mapbox.satellite'
 		}).addTo(map);
 
 		// add a marker at Blegen Hall and attach a popup with some content to it
 		// that will open when the marker is clicked.
 		L.marker([31.6563855, -7.962419]).addTo(map)
-			.bindPopup("<b>Hi there world!</b><br />I am a popup, just popping around Blegen Hall")
+			.bindPopup("<b>Hi Kevin!</b><br />I am enjoying the nice weather in this part of the world!")
 			.openPopup(); //openPopup means that the popup will be opened initially when the map loads.
 
 	</script>
