@@ -35,7 +35,7 @@
 
 		// tell the map where it's center is [latitude, longitude] and what
 		// zoom level to start at (1 being waaaaay out, and 18 being basically street level)
-		map.setView([44.971724, -93.243239], 16);
+		map.setView([42.990116, -97.862575], 16);
 
 		// create our basemap layer and add it to the map
 		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6IjZjNmRjNzk3ZmE2MTcwOTEwMGY0MzU3YjUzOWFmNWZhIn0.Y8bhBaUMqFiPrDRW9hieoQ', {
@@ -46,10 +46,15 @@
 			id: 'mapbox.streets'
 		}).addTo(map);
 
+		var moeIcon = L.icon({
+				iconUrl: 'QuinnlynArtwithShadow.png',
+				iconSize: [200, 150],
+				iconAnchor: [60, 10],
+		});
 		// add a marker at Blegen Hall and attach a popup with some content to it
 		// that will open when the marker is clicked.
-		L.marker([44.971724, -93.243239]).addTo(map)
-			.bindPopup("<b>Hi there world!</b><br />I am a popup, just popping around Blegen Hall")
+		L.marker([42.990116, -97.862575], {icon: moeIcon}).addTo(map)
+			.bindPopup("<b>Greetings from no where!</b><br />Tyndall, SD is dying at a rapid rate since I left town")
 			.openPopup(); //openPopup means that the popup will be opened initially when the map loads.
 
 	</script>
