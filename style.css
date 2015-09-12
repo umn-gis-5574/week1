@@ -1,0 +1,9 @@
+/*
+Note this snippet of CSS is a way to make a full page map without
+any white space around the edges.
+*/
+body, html, #map-container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
