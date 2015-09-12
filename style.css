@@ -7,3 +7,8 @@ body, html, #map-container {
     width: 100%;
     margin: 0 auto;
 }
+
+.popup-text{
+    color: green;
+    font-size: 1.2em;
+}
